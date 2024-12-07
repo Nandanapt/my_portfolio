@@ -1,0 +1,187 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f2f1ef, #f2f1ef);
+    color: #333;
+  }
+  
+  /* Header Styling */
+header {
+    background-color: #3643a5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  header nav ul li a:hover {
+    color: #f0e68c;
+  }
+  
+  /* Main Section Styling */
+  main {
+    padding: 20px;
+  }
+  
+  section h2 {
+    color: #550357;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .intro button {
+    background-color: #3643a5;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .intro button:hover {
+    background-color: #f0e68c;
+  }
+  
+  .featured {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #9acce6;
+    border: 2px solid #3643a5;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card h3 {
+    color: #080b10;
+  }
+  
+  .project-card p {
+    color: #555;
+  }
+  
+  /* Skills Section */
+  .skills-bar {
+    margin-top: 30px;
+  }
+  
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill-bar {
+    background-color: #ddd;
+   
+  }
+  
+  .skill span {
+    font-size: 1.2em;
+    color: #3643a5;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #3643a5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #3643a5;
+    
+    padding: 10px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color:#f0e68c;
+  }
+ 
+  .contact-container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 1500px;
+  }
+  
+.biodata-container{
+  display:flex;
+  align-items:flex-start;
+  gap:20px;
+  margin-top:20px;
+}
+.profile-pic
+{
+  width:180px;
+  height:auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.biodata-details
+{
+  flex:1;
+}
+hr{
+  height:3px;
+
+  background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0, 0, 0, 0.75),rgba(0,0,0,0));
+}
